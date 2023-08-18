@@ -25,7 +25,7 @@ h4all.forEach(function (elem) {
 gsap.to("#nav", {
   backgroundColor: "#000",
   duration: 0.5,
-  height: "110px",
+  height: "90px",
   scrollTrigger: {
     trigger: "#nav",
     scroller: "body",

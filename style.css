@@ -50,7 +50,7 @@ body {
   transition: all linear 0.4s;
 }
 #nav {
-  height: 130px;
+  height: 80px;
   width: 100%;
   /* background-color: red; */
   display: flex;
@@ -62,7 +62,7 @@ body {
   z-index: 999;
 }
 #nav img {
-  height: 4.5vw;
+  height: 3.5vw;
 }
 #nav h4 {
   text-transform: uppercase;
@@ -132,6 +132,7 @@ video {
   justify-content: center;
   border-radius: 50%;
   transition: all ease 0.5s;
+  cursor: pointer;
 }
 #page1 #arrow i {
   font-size: 50px;
@@ -145,6 +146,7 @@ video {
   min-height: 100vh;
   width: 100%;
   z-index: 10;
+  padding-top: 100px;
 }
 
 #scroller {
@@ -197,6 +199,7 @@ video {
   /* background-color: red; */
   display: flex;
   padding: 0 50px;
+  margin: 100px auto;
   align-items: center;
   position: relative;
   z-index: 10;
@@ -255,8 +258,8 @@ video {
   height: 100%;
   width: 100%;
   background-color: #95c11e;
-  padding: 30px;
-  padding-top: 160px;
+  padding: 20px;
+  padding-top: 50px;
   opacity: 0;
   transition: all ease 0.6s;
 }
@@ -264,7 +267,7 @@ video {
   color: #000;
   font-size: 40px;
   text-transform: uppercase;
-  white-space: nowrap;
+  white-space: wrap;
   margin-bottom: 20px;
   font-weight: 800;
 }
@@ -280,6 +283,7 @@ video {
 }
 
 #green-div {
+  margin-top: 60px;
   height: 30vh;
   display: flex;
   align-items: center;
@@ -379,7 +383,7 @@ video {
 #page4 h1 {
   font-size: 6.4vw;
   position: absolute;
-  top: -15%;
+  top: -18%;
   font-weight: 900;
   font-family: gilroy;
   color: #000;
@@ -395,6 +399,7 @@ video {
   justify-content: flex-start;
   gap: 6.5vw;
   padding: 0 100px;
+  margin-top: 60px;
 }
 #footer > img {
   position: absolute;
